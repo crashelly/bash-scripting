@@ -1,6 +1,14 @@
 
 #!/bin/bash
 
+#this script fix the error  process_singleton_posix.cc(359)
+#of microsoft-edge and the legend of this  error is: "
+#this profile appears to be in use by another  Microsoft Edge 
+#process...Microsoft Edge has blocked this profile to
+#prevent corruption..."
+# writed by Jesus David Buitrago @ Crashelly 
+# any recomendation  this is my github  https://github.com/crashelly
+#  email: buitragoagudeloj006@gmail.com 
 cd $HOME/.config/microsoft-edge/
 
 echo "moving to microsoft-edge dir..."
